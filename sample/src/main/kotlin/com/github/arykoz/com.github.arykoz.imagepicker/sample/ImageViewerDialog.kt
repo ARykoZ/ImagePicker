@@ -1,4 +1,4 @@
-package com.github.dhaval2404.imagepicker.sample
+package com.github.arykoz.imagepicker.sample
 
 import android.os.Bundle
 import android.support.v4.app.DialogFragment

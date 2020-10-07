@@ -1,11 +1,11 @@
-package com.github.dhaval2404.imagepicker.util
+package com.github.arykoz.imagepicker.util
 
 import android.content.Context
 import android.support.v7.app.AlertDialog
 import android.view.LayoutInflater
-import com.github.dhaval2404.imagepicker.R
-import com.github.dhaval2404.imagepicker.constant.ImageProvider
-import com.github.dhaval2404.imagepicker.listener.ResultListener
+import com.github.arykoz.imagepicker.R
+import com.github.arykoz.imagepicker.constant.ImageProvider
+import com.github.arykoz.imagepicker.listener.ResultListener
 import kotlinx.android.synthetic.main.dialog_choose_app.view.*
 
 /**

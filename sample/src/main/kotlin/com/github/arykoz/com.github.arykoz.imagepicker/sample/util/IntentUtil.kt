@@ -1,11 +1,11 @@
-package com.github.dhaval2404.imagepicker.sample.util
+package com.github.arykoz.imagepicker.sample.util
 
 import android.app.Activity
 import android.content.Intent
 import android.net.Uri
 import android.support.customtabs.CustomTabsIntent
 import android.support.v4.content.FileProvider
-import com.github.dhaval2404.imagepicker.R
+import com.github.arykoz.imagepicker.R
 import java.io.File
 
 /**

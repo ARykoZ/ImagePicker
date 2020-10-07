@@ -1,4 +1,4 @@
-package com.github.dhaval2404.imagepicker
+package com.github.arykoz.imagepicker
 
 import android.app.Activity
 import android.content.Context
@@ -7,11 +7,11 @@ import android.net.Uri
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
-import com.github.dhaval2404.imagepicker.constant.ImageProvider
-import com.github.dhaval2404.imagepicker.provider.CameraProvider
-import com.github.dhaval2404.imagepicker.provider.CompressionProvider
-import com.github.dhaval2404.imagepicker.provider.CropProvider
-import com.github.dhaval2404.imagepicker.provider.GalleryProvider
+import com.github.arykoz.imagepicker.constant.ImageProvider
+import com.github.arykoz.imagepicker.provider.CameraProvider
+import com.github.arykoz.imagepicker.provider.CompressionProvider
+import com.github.arykoz.imagepicker.provider.CropProvider
+import com.github.arykoz.imagepicker.provider.GalleryProvider
 import java.io.File
 
 /**

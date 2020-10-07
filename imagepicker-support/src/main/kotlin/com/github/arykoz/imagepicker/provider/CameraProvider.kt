@@ -1,4 +1,4 @@
-package com.github.dhaval2404.imagepicker.provider
+package com.github.arykoz.imagepicker.provider
 
 import android.Manifest
 import android.app.Activity
@@ -6,13 +6,13 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.support.v4.app.ActivityCompat.requestPermissions
-import com.github.dhaval2404.imagepicker.ImagePicker
-import com.github.dhaval2404.imagepicker.ImagePickerActivity
-import com.github.dhaval2404.imagepicker.R
-import com.github.dhaval2404.imagepicker.util.FileUtil
-import com.github.dhaval2404.imagepicker.util.IntentUtils
-import com.github.dhaval2404.imagepicker.util.PermissionUtil
-import com.github.dhaval2404.imagepicker.util.PermissionUtil.isPermissionGranted
+import com.github.arykoz.imagepicker.ImagePicker
+import com.github.arykoz.imagepicker.ImagePickerActivity
+import com.github.arykoz.imagepicker.R
+import com.github.arykoz.imagepicker.util.FileUtil
+import com.github.arykoz.imagepicker.util.IntentUtils
+import com.github.arykoz.imagepicker.util.PermissionUtil
+import com.github.arykoz.imagepicker.util.PermissionUtil.isPermissionGranted
 import java.io.File
 
 /**

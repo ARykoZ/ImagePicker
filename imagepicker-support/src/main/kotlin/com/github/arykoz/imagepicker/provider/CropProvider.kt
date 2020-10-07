@@ -1,4 +1,4 @@
-package com.github.dhaval2404.imagepicker.provider
+package com.github.arykoz.imagepicker.provider
 
 import android.app.Activity
 import android.content.ActivityNotFoundException
@@ -6,10 +6,10 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
-import com.github.dhaval2404.imagepicker.ImagePicker
-import com.github.dhaval2404.imagepicker.ImagePickerActivity
-import com.github.dhaval2404.imagepicker.R
-import com.github.dhaval2404.imagepicker.util.FileUtil
+import com.github.arykoz.imagepicker.ImagePicker
+import com.github.arykoz.imagepicker.ImagePickerActivity
+import com.github.arykoz.imagepicker.R
+import com.github.arykoz.imagepicker.util.FileUtil
 import com.yalantis.ucrop.UCrop
 import java.io.File
 import java.io.IOException

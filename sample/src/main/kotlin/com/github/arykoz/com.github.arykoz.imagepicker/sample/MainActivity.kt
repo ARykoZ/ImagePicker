@@ -1,4 +1,4 @@
-package com.github.dhaval2404.imagepicker.sample
+package com.github.arykoz.imagepicker.sample
 
 import android.app.Activity
 import android.content.Intent
@@ -12,9 +12,9 @@ import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
-import com.github.dhaval2404.imagepicker.ImagePicker
-import com.github.dhaval2404.imagepicker.sample.util.FileUtil
-import com.github.dhaval2404.imagepicker.sample.util.IntentUtil
+import com.github.arykoz.imagepicker.ImagePicker
+import com.github.arykoz.imagepicker.sample.util.FileUtil
+import com.github.arykoz.imagepicker.sample.util.IntentUtil
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.content_camera_only.*
 import kotlinx.android.synthetic.main.content_gallery_only.*

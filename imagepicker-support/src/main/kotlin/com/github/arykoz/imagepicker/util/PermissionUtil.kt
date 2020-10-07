@@ -1,4 +1,4 @@
-package com.github.dhaval2404.imagepicker.util
+package com.github.arykoz.imagepicker.util
 
 import android.content.Context
 import android.content.pm.PackageManager

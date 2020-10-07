@@ -1,9 +1,9 @@
-package com.github.dhaval2404.imagepicker.provider
+package com.github.arykoz.imagepicker.provider
 
 import android.content.ContextWrapper
 import android.os.Bundle
 import android.widget.Toast
-import com.github.dhaval2404.imagepicker.ImagePickerActivity
+import com.github.arykoz.imagepicker.ImagePickerActivity
 
 /**
  * Abstract Provider class

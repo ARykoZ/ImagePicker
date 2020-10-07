@@ -1,13 +1,13 @@
-package com.github.dhaval2404.imagepicker.provider
+package com.github.arykoz.imagepicker.provider
 
 import android.annotation.SuppressLint
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.os.AsyncTask
-import com.github.dhaval2404.imagepicker.ImagePicker
-import com.github.dhaval2404.imagepicker.ImagePickerActivity
-import com.github.dhaval2404.imagepicker.util.FileUtil
-import com.github.dhaval2404.imagepicker.util.ImageUtil
+import com.github.arykoz.imagepicker.ImagePicker
+import com.github.arykoz.imagepicker.ImagePickerActivity
+import com.github.arykoz.imagepicker.util.FileUtil
+import com.github.arykoz.imagepicker.util.ImageUtil
 import java.io.File
 
 /**
@@ -102,7 +102,7 @@ class CompressionProvider(activity: ImagePickerActivity) : BaseProvider(activity
                     handleResult(file)
                 } else {
                     // Post Error
-                    setError(com.github.dhaval2404.imagepicker.R.string.error_failed_to_compress_image)
+                    setError(com.github.arykoz.imagepicker.R.string.error_failed_to_compress_image)
                 }
             }
         }.execute(file)

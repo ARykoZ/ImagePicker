@@ -1,4 +1,4 @@
-package com.github.dhaval2404.imagepicker
+package com.github.arykoz.imagepicker
 
 import android.app.Activity
 import android.content.Intent
@@ -6,9 +6,9 @@ import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
-import com.github.dhaval2404.imagepicker.constant.ImageProvider
-import com.github.dhaval2404.imagepicker.listener.ResultListener
-import com.github.dhaval2404.imagepicker.util.DialogHelper
+import com.github.arykoz.imagepicker.constant.ImageProvider
+import com.github.arykoz.imagepicker.listener.ResultListener
+import com.github.arykoz.imagepicker.util.DialogHelper
 import com.github.florent37.inlineactivityresult.kotlin.startForResult
 import java.io.File
 

@@ -1,4 +1,4 @@
-package com.github.dhaval2404.imagepicker.util
+package com.github.arykoz.imagepicker.util
 
 import android.content.Context
 import android.content.Intent
@@ -8,7 +8,7 @@ import android.net.Uri
 import android.os.Build
 import android.provider.MediaStore
 import android.support.v4.content.FileProvider
-import com.github.dhaval2404.imagepicker.R
+import com.github.arykoz.imagepicker.R
 import java.io.File
 
 /**
@@ -85,7 +85,7 @@ object IntentUtils {
         }
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            // authority = com.github.dhaval2404.imagepicker.provider
+            // authority = com.github.arykoz.imagepicker.provider
             val authority = context.packageName + context.getString(R.string.image_picker_provider_authority_suffix)
             val photoURI = FileProvider.getUriForFile(context, authority, file)
             intent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI)

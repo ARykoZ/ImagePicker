@@ -1,4 +1,4 @@
-package com.github.dhaval2404.imagepicker.listener
+package com.github.arykoz.imagepicker.listener
 
 /**
  *
