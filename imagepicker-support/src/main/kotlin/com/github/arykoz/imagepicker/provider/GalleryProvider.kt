@@ -3,7 +3,7 @@ package com.github.arykoz.imagepicker.provider
 import android.Manifest
 import android.app.Activity
 import android.content.Intent
-import android.support.v4.app.ActivityCompat.requestPermissions
+import androidx.core.app.ActivityCompat.requestPermissions
 import com.github.arykoz.imagepicker.ImagePicker
 import com.github.arykoz.imagepicker.ImagePickerActivity
 import com.github.arykoz.imagepicker.R
@@ -34,7 +34,7 @@ class GalleryProvider(activity: ImagePickerActivity) :
         private const val PERMISSION_INTENT_REQ_CODE = 4262
     }
 
-    //Mime types restrictions for gallery. By default all mime types are valid
+    // Mime types restrictions for gallery. By default all mime types are valid
     private val mimeTypes: Array<String>
 
     init {

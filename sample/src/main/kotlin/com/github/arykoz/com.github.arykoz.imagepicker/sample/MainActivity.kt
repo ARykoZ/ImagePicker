@@ -4,14 +4,14 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.os.Environment
-import android.support.v7.app.AlertDialog
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.app.AppCompatDelegate
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.fragment.app.FragmentActivity
 import com.github.arykoz.imagepicker.ImagePicker
 import com.github.arykoz.imagepicker.sample.util.FileUtil
 import com.github.arykoz.imagepicker.sample.util.IntentUtil
@@ -21,7 +21,7 @@ import kotlinx.android.synthetic.main.content_gallery_only.*
 import kotlinx.android.synthetic.main.content_profile.*
 import java.io.File
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : FragmentActivity() {
 
     companion object {
 
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setSupportActionBar(toolbar)
+        setActionBar(toolbar)
         imgProfile.setDrawableImage(R.drawable.ic_person, true)
     }
 
@@ -77,8 +77,7 @@ class MainActivity : AppCompatActivity() {
             .crop()
             // User can only select image from Gallery
             .galleryOnly()
-
-            .galleryMimeTypes(  //no gif images at all
+            .galleryMimeTypes(
                 mimeTypes = arrayOf(
                     "image/png",
                     "image/jpg",

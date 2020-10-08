@@ -5,7 +5,7 @@ import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.support.v4.app.ActivityCompat.requestPermissions
+import androidx.core.app.ActivityCompat.requestPermissions
 import com.github.arykoz.imagepicker.ImagePicker
 import com.github.arykoz.imagepicker.ImagePickerActivity
 import com.github.arykoz.imagepicker.R

@@ -1,7 +1,7 @@
 package com.github.arykoz.imagepicker.util
 
 import android.content.Context
-import android.support.v7.app.AlertDialog
+import androidx.appcompat.app.AlertDialog
 import android.view.LayoutInflater
 import com.github.arykoz.imagepicker.R
 import com.github.arykoz.imagepicker.constant.ImageProvider

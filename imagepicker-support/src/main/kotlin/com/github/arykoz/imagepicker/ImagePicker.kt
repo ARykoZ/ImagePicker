@@ -3,9 +3,9 @@ package com.github.arykoz.imagepicker
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.Fragment
 import com.github.arykoz.imagepicker.constant.ImageProvider
 import com.github.arykoz.imagepicker.listener.ResultListener
 import com.github.arykoz.imagepicker.util.DialogHelper
@@ -123,7 +123,8 @@ open class ImagePicker {
          *
          * Camera, Crop, Compress Image Will be store in this directory.
          *
-         * If null, Image will be stored in {@see [Environment.DIRECTORY_DCIM]}
+         * If null, Image will be stored in {@see [Environment.DIRECTORY_DCIM]
+         * }
          */
         private var saveDir: String? = null
 

@@ -10,7 +10,7 @@
             android:layout_height="180dp"
             android:layout_centerInParent="true">
 
-        <android.support.v7.widget.AppCompatImageView
+        <androidx.appcompat.widget.AppCompatImageView
                 android:id="@+id/imgProfile"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -24,7 +24,7 @@
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/ic_person" />
 
-        <android.support.design.widget.FloatingActionButton
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
                 android:id="@+id/fab_add_photo"
                 style="@style/FabStyle"
                 android:layout_alignParentEnd="true"
@@ -33,7 +33,7 @@
 
     </RelativeLayout>
 
-    <android.support.v7.widget.AppCompatImageView
+    <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/imgProfileCode"
             style="@style/ImageButtonStyle"
             android:layout_alignParentEnd="true"
@@ -42,7 +42,7 @@
             android:onClick="showImageCode"
             app:srcCompat="@drawable/outline_code_24" />
 
-    <android.support.v7.widget.AppCompatImageView
+    <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/imgProfileInfo"
             style="@style/ImageButtonStyle"
             android:layout_below="@id/imgProfileCode"

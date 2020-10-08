@@ -5,8 +5,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical">
 
-    <android.support.v7.widget.AppCompatImageView
-            android:id="@+id/codeImg"
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/devImg"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
